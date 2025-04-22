@@ -7,9 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Margin="10">
-        <TextBlock Text="BMI калькулятор" HorizontalAlignment="Center" FontSize="20"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="557*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="10,10,10,10.5" Grid.ColumnSpan="3"  >
+            <TextBlock Text="BMI калькулятор" HorizontalAlignment="Center" FontSize="20"/>
+
             <TextBlock Margin="10" Width="200" HorizontalAlignment="Left" ><Run Text="Информация о том что такое BMI и"/><LineBreak/><Run Text="как калькулятор работает"/></TextBlock>
+
+            <StackPanel Margin="10" Width="90" HorizontalAlignment="Left" >
+                <Image  Margin="20" Source="male-icon.png" Height="100" Width="50" HorizontalAlignment="Left"/>
+                <Label Content="Мужской" Margin="10,10,0,10" Width="70" HorizontalAlignment="Left"/>
+            </StackPanel>
+
         </StackPanel>
 
 
