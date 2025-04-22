@@ -17,13 +17,18 @@
 
             <TextBlock Margin="10" Width="200" HorizontalAlignment="Left" ><Run Text="Информация о том что такое BMI и"/><LineBreak/><Run Text="как калькулятор работает"/></TextBlock>
 
-            <StackPanel Margin="10" Width="90" HorizontalAlignment="Left" >
-                <Image  Margin="20" Source="male-icon.png" Height="100" Width="50" HorizontalAlignment="Left"/>
-                <Label Content="Мужской" Margin="10,10,0,10" Width="70" HorizontalAlignment="Left"/>
+            <StackPanel Margin="10" Width="190" HorizontalAlignment="Left" Orientation="Horizontal">
+                <StackPanel Margin="10,10,-10,10" Width="90" HorizontalAlignment="Left">
+                    <Image  Margin="20,20,0,20" Source="male-icon.png" Height="100" Width="50" HorizontalAlignment="Left"/>
+                    <Label Content="Мужской" Margin="10,10,0,10" Width="70" HorizontalAlignment="Left"/>
+
+                </StackPanel>
+                <StackPanel Margin="10,10,-10,10" Width="90" HorizontalAlignment="Center">
+                    <Image  Margin="20" Source="male-icon.png" Height="100" Width="50" HorizontalAlignment="Left"/>
+                    <Label Content="Женский" Margin="10,10,0,10" Width="70" HorizontalAlignment="Left"/>
+                </StackPanel>
             </StackPanel>
 
         </StackPanel>
-
-
     </Grid>
 </Window>
