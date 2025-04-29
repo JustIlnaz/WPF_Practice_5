@@ -29,6 +29,31 @@
                 </StackPanel>
             </StackPanel>
 
+            <StackPanel Orientation="Horizontal">
+
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Рост:" Margin="50,5,5,5"/>
+                    <TextBlock Text="Вес:" Margin="50,5,5,5"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <TextBox  Width="50" Margin="0,5,5,5"/>
+                    <TextBox Width="50" Margin="0,5,5,5"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="см" Margin="0,5,5,5"/>
+                    <TextBlock Text="кг" Margin="0,5,5,5"/>
+                </StackPanel>
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button  Margin="10,5,5,5" Width="100" Height="22" Content="Рассчитать"/>
+                <Button  Margin="10,5,5,5" Width="100" Height="22" Content="Отмена"/>
+
+            </StackPanel>
+
         </StackPanel>
     </Grid>
 </Window>
